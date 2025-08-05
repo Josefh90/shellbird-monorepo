@@ -1,0 +1,59 @@
+# === Node / Frontend ===
+node_modules/
+**/node_modules/
+dist/
+.build/
+.next/
+out/
+.env
+.env.*.local
+.pnpm-store/
+.vite/
+.yarn/
+.cache/
+*.log
+
+# === Go / Backend ===
+bin/
+*.exe
+*.test
+*.out
+*.o
+*.a
+*.so
+*.mod
+*.sum
+coverage/
+go.sum
+go.work.sum
+
+# === Wails Specific ===
+build/
+frontend/dist/
+frontend/node_modules/
+frontend/.vite/
+wails.log
+
+# === OS & Editor files ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# === Logs & Misc ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.tgz
+*.lock
+
+# === Git Submodules (optional) ===
+.gitmodules
+
+# === Custom ===
+*.local.*
+*.secret.*
